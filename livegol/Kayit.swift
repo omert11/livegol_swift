@@ -9,22 +9,21 @@
 import UIKit
 
 class Kayit: UIViewController {
-
+    @IBOutlet weak var kaydetbtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        kaydetbtn.layer.cornerRadius=5
+        kaydetbtn.clipsToBounds=true
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier=="yuklemeekranigit" {
+            
+        }
+    }
+    @IBAction func kaydetvedemet(_ sender: Any) {
+        performSegue(withIdentifier: "yuklemeekranigit", sender: nil)
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

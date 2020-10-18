@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630688D6220AF1F000E83947 /* Yardim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630688D5220AF1F000E83947 /* Yardim.swift */; };
+		630688D8220AF26E00E83947 /* Iletisim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630688D7220AF26E00E83947 /* Iletisim.swift */; };
+		630688DA220AF29500E83947 /* Kayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630688D9220AF29500E83947 /* Kayit.swift */; };
+		630688DC220AF2BC00E83947 /* YuklemeEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630688DB220AF2BC00E83947 /* YuklemeEkrani.swift */; };
+		630688DE220AF2E800E83947 /* Anamenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630688DD220AF2E800E83947 /* Anamenu.swift */; };
 		63AA1B6821F9FF4600283A66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA1B6721F9FF4600283A66 /* AppDelegate.swift */; };
-		63AA1B6A21F9FF4600283A66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA1B6921F9FF4600283A66 /* ViewController.swift */; };
+		63AA1B6A21F9FF4600283A66 /* Girisekrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA1B6921F9FF4600283A66 /* Girisekrani.swift */; };
 		63AA1B6D21F9FF4600283A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AA1B6B21F9FF4600283A66 /* Main.storyboard */; };
 		63AA1B7021F9FF4600283A66 /* livegol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63AA1B6E21F9FF4600283A66 /* livegol.xcdatamodeld */; };
 		63AA1B7221F9FF4600283A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AA1B7121F9FF4600283A66 /* Assets.xcassets */; };
@@ -16,9 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630688D5220AF1F000E83947 /* Yardim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yardim.swift; sourceTree = "<group>"; };
+		630688D7220AF26E00E83947 /* Iletisim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iletisim.swift; sourceTree = "<group>"; };
+		630688D9220AF29500E83947 /* Kayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kayit.swift; sourceTree = "<group>"; };
+		630688DB220AF2BC00E83947 /* YuklemeEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuklemeEkrani.swift; sourceTree = "<group>"; };
+		630688DD220AF2E800E83947 /* Anamenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anamenu.swift; sourceTree = "<group>"; };
 		63AA1B6421F9FF4600283A66 /* livegol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livegol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AA1B6721F9FF4600283A66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63AA1B6921F9FF4600283A66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63AA1B6921F9FF4600283A66 /* Girisekrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Girisekrani.swift; sourceTree = "<group>"; };
 		63AA1B6C21F9FF4600283A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63AA1B6F21F9FF4600283A66 /* livegol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = livegol.xcdatamodel; sourceTree = "<group>"; };
 		63AA1B7121F9FF4600283A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				63AA1B6721F9FF4600283A66 /* AppDelegate.swift */,
-				63AA1B6921F9FF4600283A66 /* ViewController.swift */,
+				630688D5220AF1F000E83947 /* Yardim.swift */,
+				630688DD220AF2E800E83947 /* Anamenu.swift */,
+				630688D7220AF26E00E83947 /* Iletisim.swift */,
+				630688DB220AF2BC00E83947 /* YuklemeEkrani.swift */,
+				630688D9220AF29500E83947 /* Kayit.swift */,
+				63AA1B6921F9FF4600283A66 /* Girisekrani.swift */,
 				63AA1B6B21F9FF4600283A66 /* Main.storyboard */,
 				63AA1B7121F9FF4600283A66 /* Assets.xcassets */,
 				63AA1B7321F9FF4600283A66 /* LaunchScreen.storyboard */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63AA1B6A21F9FF4600283A66 /* ViewController.swift in Sources */,
+				63AA1B6A21F9FF4600283A66 /* Girisekrani.swift in Sources */,
+				630688D8220AF26E00E83947 /* Iletisim.swift in Sources */,
+				630688DA220AF29500E83947 /* Kayit.swift in Sources */,
+				630688D6220AF1F000E83947 /* Yardim.swift in Sources */,
 				63AA1B6821F9FF4600283A66 /* AppDelegate.swift in Sources */,
+				630688DE220AF2E800E83947 /* Anamenu.swift in Sources */,
+				630688DC220AF2BC00E83947 /* YuklemeEkrani.swift in Sources */,
 				63AA1B7021F9FF4600283A66 /* livegol.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
